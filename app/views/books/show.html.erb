@@ -1,0 +1,11 @@
+<h2>詳細</h2>
+<div class = "title-area">
+  <p><strong>Title: </strong><%= @book.title %></p>
+</div>
+
+<div class = "body-area">
+  <p><strong>Body: </strong><%= @book.body %></p>
+</div>
+
+<%= link_to "Edit", edit_book_path(@book.id) %>
+ <a href="/books">Back</a>
